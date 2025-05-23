@@ -1,0 +1,457 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+img{
+    vertical-align: middle;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+img,
+ul,
+ol,
+li,
+input,
+form,
+.btn,
+.navbar,
+.breadcrumb,
+.pagination {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{
+    font-family: "Roboto", serif;
+}
+    
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+.header_part{
+    padding: 60px 0px;
+}
+.collapse .navbar-nav .nav-item .nav-link{
+    color: #ffffff;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 400;
+    padding: 10px 25px;
+    display: block;
+}
+.collapse .log-btn{
+    padding: 15px 45px;
+    border-radius: 40px;
+    border: 1px solid #182a54;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #5584ff;
+    background: transparent;
+}
+.banner-head{
+    margin-top: 100px;
+}
+.banner-head h1{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 100;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+.banner-head p{
+    color: #8492af;
+    font-size: 36px;
+    text-transform: capitalize;
+    font-weight: 400;
+    margin-bottom: 80px;
+    line-height: 1.6;
+}
+.banner-head a{
+    padding: 17px 55px;
+    background: #5584ff;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 40px;
+    display: inline-block;
+    margin-bottom: 470px;
+}
+/*-----------------------------service_part start---------------------------*/
+.service_part{
+    background: #ffffff;
+    padding: 80px 0px;
+}
+.bg_img{
+    margin: 0 15%;
+    position: relative;
+}
+.bg_img img{
+    position: absolute;
+    top: -540px;
+}
+.service_part_item{
+    position: relative;
+}
+.service_part_item img{
+    margin-bottom: 60px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.service_part_item img::after{
+    position: absolute;
+    height: 2px;
+    display: inline-block;
+    width: 100px;
+    right: 10px;
+    background: #8492af;
+    content: '';
+    z-index: 1;
+}
+
+.service_part_item h4{
+    color: #0e1a35;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.service_part_item p{
+    color: #8492af;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+.service_part_item a{
+    padding: 18px 85px;
+    display: inline-block;
+    border: 1px solid #dadee7;
+    border-radius: 40px;
+    font-size: 18px;
+    color: #0e1a35;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+/*-------------------------browser_part start---------------------*/
+.browser_part{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(246,247,250,1) 0%, rgba(246,247,250,1) 100%);
+    padding: 100px 0px;
+}
+.ms_200{
+    margin-left: 100px;
+}
+.browser_part_content h2{
+    font-size: 53px;
+    color: #0e1a35;
+    font-weight: 100;
+    text-transform: capitalize;
+    padding-bottom: 60px;
+}
+.browser_part_content p{
+    color: #8492af;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 60px;
+}
+.browser_part_content ul li{
+    color: #98b4fd;
+    font-weight: 400;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+/*-------------------------drug_drop_part start--------------------*/
+.drug_drop_part{
+    background: url(../images/header_banner.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+#left, #right{
+    width: 50%;
+    margin: 20px;
+    min-height: 350px;
+    /* border: 1px dashed #ffffff; */
+
+}
+#right h5{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px;
+}
+#left h5{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 10px;
+}
+#left h5 i{
+    margin-left: 60px;
+}
+.list{
+    margin: 20px 10px;
+    width: 90%;
+    height: 60px;
+    background: #ffffff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+.list h5{
+    color: #ffffff;
+    width: 20px;
+    font-size: 8px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    background: #5584ff;
+    text-align: center;
+    /* margin-top: 5px; */
+}
+.list img{
+    margin-top: 5px;
+}
+.list span{
+    color: #000;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+.drag_drop_content h2{
+    color: #ffffff;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+.drag_drop_content p{
+    color: #8492af;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.drag_drop_content span a{
+    margin-right: 20px;
+}
+/*-------------------template_part start---------------*/
+.template_part{
+    background: #f6f7fa;
+    padding: 80px 0px 40px;
+}
+.template_part_head h2{
+    color: #0e1a35;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.template_part_head p{
+    color: #8492af;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    padding: 0 5%;
+    margin-bottom: 70px;
+}
+.right_temp_cont h5,
+.left_temp_cont h5{
+    font-size: 24px;
+    color: #0e1a35;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding-bottom: 0px;
+}
+.left_temp_cont img{
+    width: 500px;
+    height: auto;
+}
+.right_temp_cont img{
+    width: 520px;
+    height: auto;
+}
+.right_temp_cont p,
+.left_temp_cont p{
+    color: #8492af;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.left_temp_cont{
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.right_temp_cont{
+    position: absolute;
+    bottom: 120px;
+    right: 0;
+}
+/*--------------------pricing_part start----------------*/
+.pricing_part{
+    background: #ffffff;
+    padding: 50px 0px 60px;
+}
+.pricing_head h2{
+    color: #0e1a35;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+.price_item{
+    background: #ffffff;
+    margin-bottom: 20px;
+}
+.price_item h5{
+    color: #0e1a35;
+    padding-top: 25px;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+.price_item p i{
+    font-size: 40px;
+    color: #0e1a35;
+    font-weight: 700;
+}
+.price_item p span{
+    color: #0e1a35;
+    font-size: 72px;
+    font-weight: 700;
+}
+.price_item p small{
+    font-size: 24px;
+    font-weight: 400;
+    color: #8492af;
+}
+.price_item ul{
+    margin-top: 60px;
+}
+.price_item ul li{
+    font-size: 18px;
+    font-size: 400;
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #8492af;
+    margin-bottom: 15px;
+}
+.price_item ul li i{
+    margin-right: 20px;
+}
+.price_bottom p{
+    color: #8492af;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin-bottom: 70px;
+    padding: 0 7%;
+}
+.price_bottom a{
+    display: inline-block;
+    padding: 15px 60px;
+    border-radius: 40px;
+    background: #5584ff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    position: relative;
+}
+.price_bottom a::after{
+    position: absolute;
+    content: '';
+    right: -170px;
+    bottom: 50%;
+    width: 150px;
+    height: 2px;
+    background: #dadee7;
+}
+.price_bottom a::before{
+    position: absolute;
+    content: '';
+    left: -170px;
+    bottom: 50%;
+    width: 150px;
+    height: 2px;
+    background: #dadee7;
+}
+footer{
+
+}
+.footer_part{
+    background: #0e1a35;
+    padding: 70px 0px;
+}
+.copy_part p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #8492af;
+}
+.ft_nav ul li a{
+    display: block;
+    padding-left: 50px;
+    color: #8492af;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.ft_nav ul span a{
+    padding-left: 20px;
+    display: inline-block;
+    color: #8492af;
+    font-size: 18px;
+}
